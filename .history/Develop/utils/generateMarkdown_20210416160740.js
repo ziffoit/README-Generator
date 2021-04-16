@@ -24,11 +24,7 @@ function generateMarkdown(userAnswers) {
 
   ##License
   ---
-  ${userAnswers.license}
-
-  ##Contribution Guidelines
-  ---
-  
+  $
 
 `;
 }

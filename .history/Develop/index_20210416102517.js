@@ -2,7 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require('fs')
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require()
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -52,9 +52,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     console.log('=--APPLICATION INITIALIZED--=')
-    inquirer.prompt(questions)
-    .then(userAnswers => {
-        writeToFile("README.md", generateMarkdown(userAnswers))
+    inquirer.prompt(questions).then(responses => {
+        writeToFile("README.md", generateMarkdown(...responses))
     })
 }
 

@@ -20,18 +20,18 @@ function generateMarkdown(userAnswers) {
 
   ##Descriptiong
   ---
-  ${userAnswers.description}
+  ${userAnswers.}
 
-  ##License
-  ---
-  ${userAnswers.license}
 
-  ##Contribution Guidelines
-  ---
-  
+
+
+
+
+
+
+
 
 `;
-}
 
 
 

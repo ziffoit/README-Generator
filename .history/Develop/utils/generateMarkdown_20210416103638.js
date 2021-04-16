@@ -22,14 +22,9 @@ function generateMarkdown(userAnswers) {
   ---
   ${userAnswers.description}
 
-  ##License
-  ---
-  ${userAnswers.license}
-
-  ##Contribution Guidelines
-  ---
-  
-
+##License
+---
+${}
 `;
 }
 

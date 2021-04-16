@@ -14,24 +14,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(userAnswers) {
   return `# ${userAnswers.title}
 
-  ##Title
-  ---
-  ${userAnswers.title}
-
-  ##Descriptiong
-  ---
-  ${userAnswers.description}
-
-  ##License
-  ---
-  ${userAnswers.license}
-
-  ##Contribution Guidelines
-  ---
-  
-
 `;
-}
 
 
 

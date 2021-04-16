@@ -53,8 +53,8 @@ function writeToFile(fileName, data) {
 function init() {
     console.log('=--APPLICATION INITIALIZED--=')
     inquirer.prompt(questions)
-    .then(userAnswers => {
-        writeToFile("README.md", generateMarkdown(userAnswers))
+    .then(responses => {
+        writeToFile("README.md", generateMarkdown(responses))
     })
 }
 

@@ -27,8 +27,6 @@ function generateMarkdown(userAnswers) {
   ${userAnswers.license}
 
   ##Contribution Guidelines
-  ---
-  
 
 `;
 }

@@ -28,7 +28,6 @@ function generateMarkdown(userAnswers) {
 
   ##Contribution Guidelines
   ---
-  
 
 `;
 }
