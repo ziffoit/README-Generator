@@ -38,15 +38,15 @@ function generateMarkdown(userAnswers) {
   ---
   ${userAnswers.license}
 
-  ## Contribution Guidelines
+  ##Contribution Guidelines
   ---
   ${userAnswers.contribution}
 
-  ## Tests
+  ##Tests
   ---
   ${userAnswers.test}
 
-  ## Questions
+  ##Questions
   ---
   ${userAnswers.questions}
 `;

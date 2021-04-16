@@ -22,31 +22,31 @@ function generateMarkdown(userAnswers) {
   ---
   ${userAnswers.description}
 
-  ## Table of Contents
+  ##Table of Contents
   ---
   ${userAnswers.tableOfContents}
 
-  ## Installation
+  ##Installation
   ---
   ${userAnswers.installation}
 
-  ## Usage
+  ##Usage
   ---
   ${userAnswers.usageInfo}
 
-  ## License
+  ##License
   ---
   ${userAnswers.license}
 
-  ## Contribution Guidelines
+  ##Contribution Guidelines
   ---
   ${userAnswers.contribution}
 
-  ## Tests
+  ##Tests
   ---
   ${userAnswers.test}
 
-  ## Questions
+  ##Questions
   ---
   ${userAnswers.questions}
 `;

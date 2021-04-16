@@ -43,7 +43,7 @@ const questions = [
     {
         type: 'input',
         name: 'questions',
-        message: 'How can you be contacted?',
+        message: 'What are your test instructions?',
       }
 ];
 

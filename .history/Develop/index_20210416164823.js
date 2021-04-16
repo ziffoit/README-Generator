@@ -42,8 +42,8 @@ const questions = [
       }
     {
         type: 'input',
-        name: 'questions',
-        message: 'How can you be contacted?',
+        name: 'test',
+        message: 'What are your test instructions?',
       }
 ];
 

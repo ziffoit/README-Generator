@@ -42,11 +42,11 @@ function generateMarkdown(userAnswers) {
   ---
   ${userAnswers.contribution}
 
-  ## Tests
+  ##Tests
   ---
   ${userAnswers.test}
 
-  ## Questions
+  ##Questions
   ---
   ${userAnswers.questions}
 `;

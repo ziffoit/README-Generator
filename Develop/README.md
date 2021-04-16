@@ -1,18 +1,33 @@
-# The Cantina
+# README-Generator
 
   ##Title
   ---
-  The Cantina
-
-  ##Table of Contents
-  --
-  1. Description
-  2. Installation
+  README-Generator
 
   ##Descriptiong
   ---
-  jazz bar with seedy clientelle
+  Write an app that generates readme.md files
 
-##License
----
+  ##Table of Contents
+  ---
+  
 
+  ##Installation
+  ---
+  
+
+  ##Usage
+  ---
+  
+
+  ##License
+  ---
+  undefined
+
+  ##Contribution Guidelines
+  ---
+  
+
+  ##Tests
+  ---
+  

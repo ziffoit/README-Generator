@@ -30,23 +30,23 @@ function generateMarkdown(userAnswers) {
   ---
   ${userAnswers.installation}
 
-  ## Usage
+  ##Usage
   ---
   ${userAnswers.usageInfo}
 
-  ## License
+  ##License
   ---
   ${userAnswers.license}
 
-  ## Contribution Guidelines
+  ##Contribution Guidelines
   ---
   ${userAnswers.contribution}
 
-  ## Tests
+  ##Tests
   ---
   ${userAnswers.test}
 
-  ## Questions
+  ##Questions
   ---
   ${userAnswers.questions}
 `;

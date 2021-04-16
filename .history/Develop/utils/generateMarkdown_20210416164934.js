@@ -14,41 +14,41 @@ function renderLicenseSection(license) {}
 function generateMarkdown(userAnswers) {
   return `# ${userAnswers.title}
 
-  ## Title
+  ##Title
   ---
   ${userAnswers.title}
 
-  ## Description
+  ##Descriptiong
   ---
   ${userAnswers.description}
 
-  ## Table of Contents
+  ##Table of Contents
   ---
   ${userAnswers.tableOfContents}
 
-  ## Installation
+  ##Installation
   ---
   ${userAnswers.installation}
 
-  ## Usage
+  ##Usage
   ---
   ${userAnswers.usageInfo}
 
-  ## License
+  ##License
   ---
   ${userAnswers.license}
 
-  ## Contribution Guidelines
+  ##Contribution Guidelines
   ---
   ${userAnswers.contribution}
 
-  ## Tests
+  ##Tests
   ---
   ${userAnswers.test}
 
-  ## Questions
+  ##Questions
   ---
-  ${userAnswers.questions}
+  ${userAnswers}
 `;
 }
 

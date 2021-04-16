@@ -46,7 +46,7 @@ function generateMarkdown(userAnswers) {
   ---
   ${userAnswers.test}
 
-  ## Questions
+  ##Questions
   ---
   ${userAnswers.questions}
 `;
