@@ -44,12 +44,7 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your email address?',
-    }, 
-    {
-        type: 'input',
-        name: 'tableOfContents',
-        message: 'List your table of contents.',
-    }  
+    } 
 ];
 
 // TODO: Create a function to write README file
