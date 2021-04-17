@@ -9,42 +9,47 @@ const questions = [
         type: 'input',
         name: 'title',
         message: 'What is the title of your project?',
-      },
+    },
     {
         type: 'input',
         name: 'description',
         message: 'Give a short description of your project.',
-      },
-    {
-        type: 'input',
-        name: 'tableOfContents',
-        message: 'List your table of contents.',
-      },
+    },
     {
         type: 'input',
         name: 'installation',
         message: 'What are your installation instructions?',
-      },
+    },
     {
         type: 'input',
         name: 'usageInfo',
         message: 'How will your project be used?',
-      },
+    },
     {
         type: 'input',
         name: 'contribution',
-        message: 'Contribution guidelines?',
-      },
+        message: 'What are your contribution guidelines?',
+    },
     {
         type: 'input',
         name: 'test',
         message: 'What are your test instructions?',
-      },
+    },
     {
         type: 'input',
-        name: 'questions',
-        message: 'How can you be contacted?',
-      }
+        name: 'github',
+        message: 'What is your GitHub user name?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+    }, 
+    {
+        type: 'input',
+        name: 'tableOfContents',
+        message: 'List your table of contents.',
+    }  
 ];
 
 // TODO: Create a function to write README file

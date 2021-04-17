@@ -1,33 +1,40 @@
-# README-Generator
+# 
 
-  ##Title
-  ---
-  README-Generator
-
-  ##Descriptiong
-  ---
-  Write an app that generates readme.md files
-
-  ##Table of Contents
+  ## Title
   ---
   
 
-  ##Installation
+  ## Description
   ---
   
 
-  ##Usage
+  ## Table of Contents
   ---
   
 
-  ##License
+  ## Installation
+  ---
+  
+
+  ## Usage
+  ---
+  
+
+  ## Contribution Guidelines
+  ---
+  
+
+  ## Tests
+  ---
+  
+
+  ## License
   ---
   undefined
 
-  ##Contribution Guidelines
+  ## Questions
   ---
+  [View Github profile](https://github.com/ziffoit)
   
+  Please reach out to me at ziffoit@gmail.com with any additional questions.
 
-  ##Tests
-  ---
-  

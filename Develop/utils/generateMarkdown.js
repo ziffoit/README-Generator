@@ -18,13 +18,15 @@ function generateMarkdown(userAnswers) {
   ---
   ${userAnswers.title}
 
+  ## Table of Contents
+  ---
+  # Table of Contents
+  1. [Example](#example)
+  2. [Example2](#example2)
+
   ## Description
   ---
   ${userAnswers.description}
-
-  ## Table of Contents
-  ---
-  ${userAnswers.tableOfContents}
 
   ## Installation
   ---
@@ -34,10 +36,6 @@ function generateMarkdown(userAnswers) {
   ---
   ${userAnswers.usageInfo}
 
-  ## License
-  ---
-  ${userAnswers.license}
-
   ## Contribution Guidelines
   ---
   ${userAnswers.contribution}
@@ -46,9 +44,16 @@ function generateMarkdown(userAnswers) {
   ---
   ${userAnswers.test}
 
+  ## License
+  ---
+  ${userAnswers.license}
+
   ## Questions
   ---
-  ${userAnswers.questions}
+  [View Github profile](https://github.com/${userAnswers.github})
+
+  Please reach out to me at ${userAnswers.email} with any additional questions.
+
 `;
 }
 
