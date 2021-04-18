@@ -46,3 +46,6 @@
 
   Please reach out to me at ziffoit@gmail.com with any additional questions.
 
+
+  ![Walk thru video](https://github.com/ziffoit/README-Generator/Readme-generator-walk-thru.mp4)
+
