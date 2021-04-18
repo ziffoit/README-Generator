@@ -32,6 +32,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'license',
+        message: 'What is your license?\n Options: [Apache, BSD3, BSD2, GPL, LGPL, MIT, Mozilla, Common, Eclipse]:',
+    },
+    {
+        type: 'input',
         name: 'test',
         message: 'What are your test instructions?',
     },
@@ -65,3 +70,15 @@ function init() {
 
 // Function call to initialize app
 init();
+
+// folder and file structure
+// utils -
+//   generateMarkdown.js
+// output -
+//   README.md
+// index.js
+// README.md
+// node_modules
+// package.json
+// package-lock.json
+// .gitignore$
