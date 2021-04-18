@@ -47,5 +47,5 @@
   Please reach out to me at ziffoit@gmail.com with any additional questions.
 
 
-  ![Walk thru video](https://github.com/ziffoit/README-Generator/Readme-generator-walk-thru.mp4)
+  [Walk thru video](https://drive.google.com/file/d/1agyZ7_3Sda9miQgL-wVjTpDc6YkbJbu_/view)
 
