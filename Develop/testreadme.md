@@ -1,8 +1,8 @@
-# README-Generator
+# cats
 
   ## Title
   ---
-  README-Generator
+  cats
   
   ![badge:MIT](https://img.shields.io/badge/license-MIT-brightgreen)  
   
@@ -18,19 +18,19 @@
   
   ## Description
   ---
-  App to quickly generate high quality readme files
+  small, furry, and endearing
 
   ## Installation
   ---
-  Fork GitHub repo. Run npm i from develop directory.
+  adopt
 
   ## Usage
   ---
-  Run node index.js from the develop directory.
+  for play, destruction, and naps
 
   ## Contribution Guidelines
   ---
-  Please create a pull request
+  provide food and attention
   
   ## License
   ---
@@ -38,7 +38,7 @@
   
   ## Tests
   ---
-  No tests
+  try different treats and toys
 
   ## Questions
   ---
