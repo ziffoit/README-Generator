@@ -1,8 +1,8 @@
-# oopTeamProfileGenerator
+# online-offline-budget
 
   ## Title
   ---
-  oopTeamProfileGenerator
+  online-offline-budget
   
   ![badge:MIT](https://img.shields.io/badge/license-MIT-brightgreen)  
   
@@ -18,33 +18,27 @@
   
   ## Description
   ---
-  Generates a html page to display id cards for employees
-
+  Budgeting app that works on or offline
 
   ## Installation
   ---
   npm install
 
-
   ## Usage
   ---
-  node index.js
-
+  click the heroku link
 
   ## Contribution Guidelines
   ---
-  Please create a pull request
+  submit pull request
   
-
   ## License
   ---
   [MIT](https://opensource.org/licenses/MIT)
   
-
   ## Tests
   ---
-  npm run test
-
+  no tests
 
   ## Questions
   ---

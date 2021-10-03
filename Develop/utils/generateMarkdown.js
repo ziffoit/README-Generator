@@ -52,8 +52,8 @@ function renderLicenseSection(license) {
     return ""
   }
   return `
-  ## License
   ---
+  ## License
   ${renderLicenseLink(license)}
   `
 }
@@ -63,11 +63,8 @@ function generateMarkdown(userAnswers) {
   const license = validatedLicense(userAnswers.license)
   return `# ${userAnswers.title}
 
-  ## Title
-  ---
-  ${userAnswers.title}
   ${renderLicenseBadge(license)}
-  ## Table of Contents
+  ## Table of Contents 
   ---
   1. [Description](#description)
   1. [Installation](#installation)
@@ -78,27 +75,22 @@ function generateMarkdown(userAnswers) {
   1. [Questions](#questions)
   
   ## Description
-  ---
   ${userAnswers.description}
-
+  ---
   ## Installation
-  ---
   ${userAnswers.installation}
-
+  ---
   ## Usage
-  ---
   ${userAnswers.usageInfo}
-
-  ## Contribution Guidelines
   ---
+  ## Contribution Guidelines
   ${userAnswers.contribution}
   ${renderLicenseSection(license)}
+  ---
   ## Tests
-  ---
   ${userAnswers.test}
-
-  ## Questions
   ---
+  ## Questions
   [View Github profile](https://github.com/${userAnswers.github})
 
   Please reach out to me at ${userAnswers.email} with any additional questions.
